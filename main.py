@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 
 def count(FILE_PATH):
-    file = with open("FILE_ATH", "r"):
+    with open(FILE_PATH, "r") as file:
         content = file.read()
         print(content)
 
 def main():
     FILE_PATH = "books/frankeinstein.txt"
-    count(FILE_PATH);
+    count(FILE_PATH)
 
-if name = __main__():
+if __name__ ==  "__main__":
     main()
